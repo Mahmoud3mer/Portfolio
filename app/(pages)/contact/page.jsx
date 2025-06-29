@@ -96,9 +96,9 @@ const Contact = () => {
                       <div className='h-[52px] w-[52px] xl:h-[72px] xl:w-[72px] bg-[#27272c] rounded-md text-accentDefault flex items-center justify-center text-[28px]'>
                         {item.icon}
                       </div>
-                      <div className='flex flex-col'>
-                        <span>{item.title}</span>
-                        <span>{item.description}</span>
+                      <div className='flex flex-col flex-1'>
+                        <span className='text-white/60'>{item.title}</span>
+                        <span className='text-xl'>{item.description}</span>
                       </div>
                     </li>
                   )
