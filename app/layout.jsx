@@ -16,6 +16,9 @@ const JetbrainsMono = JetBrains_Mono({
 export const metadata = {
   title: "Portfolio",
   description: "Mahmoud Amer's Portfolio, Frontend Developer",
+  icons: {
+    icon: '/favicon.svg'
+  }
 };
 
 export default function RootLayout({ children }) {
