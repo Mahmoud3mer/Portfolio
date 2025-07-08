@@ -32,6 +32,17 @@ const projects = [
   {
     num: '02',
     category: 'Frontend',
+    title: 'V-Trade E-Commerce',
+    description: `A responsive e-commerce web application with product management and shopping.
+    Features: filter and search for products, manage cart and wishlist , online payment , Authentication.`,
+    stack: [{ name: 'Html 5' }, { name: 'CSS' }, { name: 'TailwindCSS' }, { name: 'React.js' }, { name: 'Formik' }, { name: 'aos' }],
+    image: '/work/V-Trade.png',
+    live: 'https://v-trade-e-commerce.vercel.app/',
+    github: 'https://github.com/Mahmoud3mer/V-Trade-E-Commerce',
+  },
+  {
+    num: '03',
+    category: 'Frontend',
     title: 'Rawafed Demo',
     description: 'It is a smart system that connects domestic workers directly with government, private, and foreign institutions and clients, ensuring accurate and smooth monitoring of all stages of recruitment.',
     stack: [{ name: 'Html 5' }, { name: 'CSS' }, { name: 'JQuery' }, { name: 'Laravel' }],
@@ -39,7 +50,7 @@ const projects = [
     live: 'https://rawfed.sa/ar',
   },
   {
-    num: '03',
+    num: '04',
     category: 'Frontend',
     title: 'Amer E-Commerce',
     description: 'A responsive e-commerce web application with product management and shopping cart features.',
@@ -49,7 +60,7 @@ const projects = [
     github: 'https://github.com/Mahmoud3mer/Amer-ECom-Web-App',
   },
   {
-    num: '04',
+    num: '05',
     category: 'Frontend',
     title: 'Portfolio',
     description: 'A personal portfolio website showcasing projects, skills, and contact information.',
@@ -59,7 +70,7 @@ const projects = [
     github: 'https://github.com/Mahmoud3mer/Amer-ECom-Web-App',
   },
   {
-    num: '05',
+    num: '06',
     category: 'Frontend',
     title: 'To Do List',
     description: 'A simple and clean to-do list app for managing daily tasks with a modern UI.',
