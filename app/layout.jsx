@@ -25,7 +25,7 @@ export const metadata = {
     url: 'https://3mer-portfolio.vercel.app/',
     images: [
       {
-        url: 'https://3mer-portfolio.vercel.app/public/og/portfolio.png',
+        url: '/og/portfolio.png',
         width: 1200,
         height: 630,
         alt: 'Portfolio Image',
