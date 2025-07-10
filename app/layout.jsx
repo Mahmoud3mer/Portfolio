@@ -18,7 +18,21 @@ export const metadata = {
   description: "Mahmoud Amer's Portfolio, Frontend Developer",
   icons: {
     icon: '/favicon.svg'
-  }
+  },
+  openGraph: {
+    title: "Mahmoud Amer's Portfolio",
+    description: "I'm a Frontend Developer.",
+    url: 'https://3mer-portfolio.vercel.app/',
+    images: [
+      {
+        url: 'https://3mer-portfolio.vercel.app/public/og/portfolio.png',
+        width: 1200,
+        height: 630,
+        alt: 'Portfolio Image',
+      },
+    ],
+    type: 'website',
+  },
 };
 
 export default function RootLayout({ children }) {
